@@ -15,3 +15,6 @@ If the User decides to save that .pdf file that contains their new person data v
 The email sending is done by a ruby gem called 'mail', which allows a program to send an email by connecting the correct SMTP server of that email provider and the ports that the email provider runs on.
 
 The email sending is also optional. If the User declines to send an email, they will still have the .pdf file saved onto their console to access at any time.
+
+
+NOTE: The current localhost port of the program is for Gmail servers! Therefore, all .pdf email sending will only be to gmail accounts.
